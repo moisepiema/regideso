@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil – Gestion des Factures</title> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head> 
+<body> 
+    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <img class="logo" src="img/logo.png" alt="logo de la regideso">
+      <a class="navbar-brand" href="#">REGIDESO</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#fonctionnement">Factures</a></li>
+          <li class="nav-item"><a class="nav-link" href="#rapports">Rapports</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+  
+  <section id="accueil" class="container-fluid py-5 position-relative" style="background-image: url('img/matete.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 400px;">
+
+  <!-- Overlay pour assombrir légèrement l'arrière-plan -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1;"></div>
+
+  <div class="row position-relative" style="z-index: 2;">
+    <!-- Texte d'accueil -->
+    <div class="col-md-6 d-flex flex-column justify-content-center text-white">
+      <h1 class="display-4 fw-bold">Bienvenue chez REGIDESO</h1>
+      <p class="lead mb-4">Votre partenaire pour une gestion efficace de l'eau. Nous sommes là pour fournir l'accès à l'eau potable et gérer vos services d'approvisionnement en eau de manière professionnelle.</p>
+      <div>
+        <a href="#valeurs" class="btn btn-outline-light btn-lg me-3">Notre Mission</a>
+        <a href="#services" class="btn btn-outline-light btn-lg">Découvrez nos services</a>
+      </div>
+    </div>
+
+    <!-- Texte inspirant à droite -->
+    <div class="col-md-6 d-flex align-items-center">
+      <h2 class="text-primary fw-semibold" style="line-height: 1.3;">
+        L'eau, c'est la vie,<br>
+        Buvez l'avenir, buvez la vie.<br>
+        L'eau est là pour nourrir, pour purifier.<br>
+        L'eau, c'est la vie.
+      </h2>
+    </div>
+  </div>
+</section>
+
+  
+  <!-- Section des valeurs / missions de REGIDESO -->
+  <section id="valeurs" class="container py-5">
+    <h2 class="text-center mb-4">Nos Valeurs et Missions</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Accessibilité</h5>
+            <p class="card-text">Nous nous engageons à rendre l'eau potable accessible à toutes et à tous, dans le respect de l'environnement.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Innovation</h5>
+            <p class="card-text">Nous mettons en œuvre des solutions innovantes pour optimiser la gestion de l'eau et améliorer la qualité des services.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Responsabilité</h5>
+            <p class="card-text">Nous assumons une responsabilité totale dans la gestion durable des ressources en eau pour le bien-être de la communauté.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ 
+  
+  
+ 
+
+  <section id="services" class="container py-5">
+    <h2 class="text-center mb-4">Nos Services</h2>
+    
+    <div class="row">
+      <!-- Service 1 : Dépannage -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="img/meij.jpg" class="card-img-top" alt="Dépannage">
+          
+          <a href="#contact" class="btn btn-primary mt-3">Contactez-nous</a>
+
+          <div class="card-body">
+            <h5 class="card-title">Dépannage</h5>
+            <p class="card-text">Notre équipe d'experts intervient rapidement pour résoudre les pannes et dysfonctionnements de vos installations.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Service 2 : Forage -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="img/forages-pompe-solaire.jpg" class="card-img-top" alt="Forage">
+          <a href="#contact" class="btn btn-primary mt-3">Contactez-nous</a>
+
+          <div class="card-body">
+            <h5 class="card-title">Forage</h5>
+            
+
+            <p class="card-text">Nous réalisons des forages pour l'accès à l'eau souterraine, une solution durable pour les zones sans accès à l'eau potable. Même dans des milieux sans courant avec des panneaux</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Service 3 : Traitement de l'eau -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="img/trait.jpg" class="card-img-top" alt="Traitement de l'eau">
+          <<a href="#contact" class="btn btn-primary mt-3">Contactez-nous</a>
+
+          <div class="card-body">
+            <h5 class="card-title">Traitement de l'eau</h5>
+            <p class="card-text">Nous offrons des services de traitement pour garantir que l'eau fournie soit potable et de haute qualité.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Service 4 : Installation de compteurs -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="img/compt.jpg" class="card-img-top" alt="Installation de compteurs">
+          <a href="#contact" class="btn btn-primary mt-3">Contactez-nous</a>
+
+          <div class="card-body">
+            <h5 class="card-title">Installation de compteurs</h5>
+            <p class="card-text">Nous installons et réparons des compteurs d'eau pour une gestion précise de votre consommation.</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Service 5 : Conseil et maintenance -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="img/mainten.png" class="card-img-top" alt="Conseil et maintenance">
+          <a href="#contact" class="btn btn-primary mt-3">Contactez-nous</a>
+
+          <div class="card-body">
+            <h5 class="card-title">Conseil et maintenance</h5>
+            <p class="card-text">Des services de conseil pour la gestion de vos installations et la maintenance pour assurer leur bon fonctionnement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+<section id="fonctionnement" class="container py-5">
+  <div class="card shadow-lg p-4" style="background: linear-gradient(135deg, #d0f0fd, #8afbdf); border-radius: 15px;">
+    <h2 class="text-center mb-4 fw-bold" style="color: #1e3c72; text-shadow: 1px 1px 3px #a0c4ff;">
+      Comprendre notre facture
+    </h2>
+
+    <p class="lead text-center mb-5" style="font-style: italic; color: #05668d;">
+      Notre système vous permet de régler votre facture d'eau facilement en ligne. Pour mieux comprendre ce que vous payez, voici une explication claire et détaillée.
+    </p>
+
+    <h4 class="text-primary">
+      Éléments de la facture
+    </h4>
+    <ul class="list-group mb-4 shadow-sm" style="border-radius: 10px;">
+      <li class="list-group-item bg-light">
+        <strong>Nom et Prénom :</strong> Identification du client.
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Numéro de compteur :</strong> Numéro unique de votre compteur d'eau.
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Période de facturation :</strong> Durée concernée par la consommation.
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Consommation en m³ :</strong> Volume d'eau consommé.
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Tarif par mètre cube :</strong> Prix fixé par REGIDESO.
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Montant consommation :</strong> Calcul (consommation × tarif).
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Frais fixes :</strong> Abonnement et services.
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Total à payer :</strong> Somme finale.
+      </li>
+    </ul>
+
+    <h4 class="text-primary">
+      Comment utiliser notre formulaire de paiement
+    </h4>
+    <ul class="list-group mb-4 shadow-sm" style="border-radius: 10px;">
+      <li class="list-group-item bg-light">
+        <strong>Nom et Prénom :</strong> Entrez vos noms officiels.
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Matricule :</strong> Votre numéro client.
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Numéro du compteur :</strong> Identifiant du compteur.
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Quartier, Avenue et Numéro :</strong> Votre adresse précise.
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Moyen de paiement :</strong> Choisissez PayPal ou Mobile Money.
+      </li>
+      <li class="list-group-item bg-light">
+        <strong>Montant :</strong> Montant exact à payer.
+      </li>
+    </ul>
+
+    <p class="text-center fs-5" style="color: #028090;">
+      Après validation, vous recevrez une confirmation de paiement instantanée.
+    </p>
+
+  <section id="avantages" class="container py-5">
+  <h2 class="text-center mb-4">Avantages du paiement en ligne</h2>
+  <div class="row text-center">
+    <div class="col-md-3 mb-4">
+      <img src="img/mulongo.jpg" alt="Plus besoin de faire la queue" class="rounded-circle mb-3" width="100" height="100">
+      <p>Plus besoin de faire la queue à l’agence</p>
+    </div>
+    <div class="col-md-3 mb-4">
+      <img src="img/secure.jpg" alt="Paiement sécurisé" class="rounded-circle mb-3" width="100" height="100">
+      <p>Paiement sécurisé et rapide</p>
+    </div>
+    <div class="col-md-3 mb-4">
+      <img src="img/assista.jpg" alt="Suivi en temps réel" class="rounded-circle mb-3" width="100" height="100">
+      <p>Suivi en temps réel de vos paiements</p>
+    </div>
+    <div class="col-md-3 mb-4">
+      <img src="img/place.jpg" alt="Accessibilité 24h/24" class="rounded-circle mb-3" width="100" height="100">
+      <p>Accessibilité 24h/24 depuis n’importe où</p>
+    </div>
+  </div>
+
+    <p class="text-center fst-italic mt-4" style="color: #028090;">
+      Ce système simplifie votre expérience avec REGIDESO et garantit un service moderne et efficace.
+    </p>
+     
+     <a href="#factures" class="btn btn-light btn-lg">Payez votre facture</a>
+     <a href="#consultation" class="btn btn-light btn-lg">Consultez vos factures</a>
+     
+  </div>
+  
+</section>
+
+
+
+
+  <section id="factures" class="container py-5" style="border-radius: 15px; background-color: #8afbdf;">
+
+
+
+
+    
+    <h2 class="text-center mb-4">Formulaire de Paiement</h2>
+    
+    <form>
+      <div class="row">
+        <!-- Nom et Prénom -->
+        <div class="col-md-6 mb-3">
+          <label for="nom">Nom</label>
+          <input type="text" class="form-control" id="nom" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="prenom">Prénom</label>
+          <input type="text" class="form-control" id="prenom" required>
+        </div>
+      </div>
+  
+      <!-- Matricule -->
+      <div class="mb-3">
+        <label for="matricule">Matricule</label>
+        <input type="text" class="form-control" id="matricule" required>
+      </div>
+
+      <!-- Compteur -->
+      <div class="mb-3">
+        <label for="compteur">Numéro du Compteur</label>
+        <input type="text" class="form-control" id="compteur" required>
+      </div>
+  
+      <!-- Sélection des Quartier, Avenue -->
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <label for="quartier">Quartier</label>
+          <select class="form-select" id="quartier">
+            <option value="Kindele">Kindele</option>
+            
+            <!-- Ajouter d'autres options -->
+          </select>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="Avenue">Avenue</label>
+          <select class="form-select" id="quartier">
+            <option value="Mbadaka">Mbadaka</option>
+            <option value="Inkisi">Inkisi</option>
+            <option value="Luezi">Luezi</option>
+            <option value="Lukunga">Lukunga</option>
+            <option value="Mayulu">Mayulu</option>
+            <option value="Kisantu">Kisantu</option>
+            <option value="Gemena">Gemena</option>
+            <option value="bikoro">Bikoro</option>
+            <!-- Ajouter d'autres options -->
+          </select>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="numero">Numéro</label>
+          <input type="number">
+        </div>
+      </div>
+  
+        <div>
+        <label><strong>Moyen de Paiement</strong></label><br>
+      
+        <input type="radio" id="paypal" name="payment_method" value="paypal">
+        <label for="paypal">Pay Pal
+          <img src="img/R.png" alt="PayPal" width="80" style="border-radius: 35px;"> 
+        </label><br>
+      
+        <input type="radio" id="moneymobile" name="payment_method" value="moneymobile">
+        <label for="moneymobile">Mobil Money
+          <img src="img/Mobile money.jpg" alt="MoneyMobile" width="80" style="border-radius: 30px;"> 
+        </label>
+      </div>
+  
+      <!-- Montant -->
+      <div class="mb-3">
+        <label for="montant">Montant</label>
+        <input type="number" class="form-control" id="montant" required>
+      </div>
+  
+      
+  
+      <!-- Bouton de soumission -->
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Soumettre</button>
+      </div>
+
+     
+    </form>
+
+  </section>
+
+  <section id="consultation" class="container py-5 bg-light" style="border-radius: 10px;">
+  <h2 class="text-center mb-4">Consultation de Factures – 6 derniers mois</h2>
+
+  <!-- Formulaire d'identification -->
+  <form>
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label for="nom" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="nom" placeholder="Ex : Kalambay" required>
+      </div>
+      <div class="col-md-6">
+        <label for="matricule" class="form-label">Matricule</label>
+        <input type="text" class="form-control" id="matricule" placeholder="Ex : 456789" required>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary">Consulter mes factures</button>
+    </div>
+  </form>
+
+  <!-- Résultat simulé -->
+  <div class="mt-5">
+    <h4 class="text-success text-center mb-4">Résultats pour : Mutamba (Matricule : 456789)</h4>
+
+    <table class="table table-bordered table-striped shadow-sm">
+      <thead class="table-primary">
+        <tr>
+          <th>Mois</th>
+          <th>Consommation (m³)</th>
+          <th>Montant (CDF)</th>
+          <th>Date de Paiement</th>
+          <th>État</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Juin 2025</td><td>21</td><td>16,800</td><td>22/06/2025</td><td><span class="badge bg-success">Payée</span></td></tr>
+        <tr><td>Mai 2025</td><td>20</td><td>16,000</td><td>23/05/2025</td><td><span class="badge bg-success">Payée</span></td></tr>
+        <tr><td>Avril 2025</td><td>18</td><td>14,400</td><td>25/04/2025</td><td><span class="badge bg-success">Payée</span></td></tr>
+        <tr><td>Mars 2025</td><td>19</td><td>15,200</td><td>24/03/2025</td><td><span class="badge bg-success">Payée</span></td></tr>
+        <tr><td>Février 2025</td><td>16</td><td>12,800</td><td>22/02/2025</td><td><span class="badge bg-success">Payée</span></td></tr>
+        <tr><td>Janvier 2025</td><td>17</td><td>13,600</td><td>25/01/2025</td><td><span class="badge bg-success">Payée</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+  
+<section id="rapports" class="container py-5 bg-light">
+  <h2 class="text-center mb-5">Rapport de Paiements</h2>
+
+  <!-- Rapport Mensuel -->
+  <div id="rapport-mensuel" class="mb-5">
+    <h3 class="text-primary mb-3">Rapport Mensuel</h3>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Mois</th>
+          <th>Montant Payé</th>
+          <th>Numéro du Compteur</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Moise PIEMA</td>
+          <td>Mai</td>
+          <td>15,000 CDF</td>
+          <td>456789</td>
+        </tr>
+        <tr>
+          <td>Guelord Mikobi</td>
+          <td>Mai</td>
+          <td>20,000 CDF</td>
+          <td>123456</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Rapport Annuel -->
+  <div id="rapport-annuel" class="mb-5">
+    <h3 class="text-success mb-3">Rapport Annuel</h3>
+    <table class="table table-bordered">
+      <thead class="table-success">
+        <tr>
+          <th>Nom</th>
+          <th>Année</th>
+          <th>Total Payé</th>
+          <th>Numéro du Compteur</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Israel Kalambay</td>
+          <td>2024</td>
+          <td>240,000 CDF</td>
+          <td>654321</td>
+        </tr>
+        <tr>
+          <td>Jeanny Ngotshi</td>
+          <td>2024</td>
+          <td>180,000 CDF</td>
+          <td>789123</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Rapport de Litiges -->
+  <div id="rapport-litiges">
+    <h3 class="text-danger mb-3">Rapport des Litiges</h3>
+    <table class="table table-bordered">
+      <thead class="table-danger">
+        <tr>
+          <th>Nom</th>
+          <th>Numéro du Compteur</th>
+          <th>Mois Impayés</th>
+          <th>Accompte</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kabeya Kalala</td>
+          <td>112233</td>
+          <td>Février, Mars, Avril</td>
+          <td>5,000 CDF</td>
+        </tr>
+        <tr>
+          <td>Mbala Ndombe</td>
+          <td>998877</td>
+          <td>Janvier, Mai</td>
+          <td>0 CDF</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+  
+  
+ <section id="temoignages" class="container py-5" style="background-color: #8afbdf; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <h2 class="text-center mb-5" style="color:#004d40; font-weight:700;">Témoignages de nos clients</h2>
+  <div class="row g-4 mb-5">
+
+    <div class="col-md-6 d-flex align-items-center bg-white rounded shadow-sm p-4">
+      <img src="img/Screenshot_20250115-155859_1.jpg" alt="Peter Mikobi" class="rounded-circle me-3" width="120" height="120" style="object-fit: cover; border: 3px solid #004d40;">
+      <blockquote class="blockquote mb-0">
+        <p style="font-size:1.1rem; color:#00695c;">"Grâce au paiement en ligne à l'agence de Makaya, fini les longues files d'attente, je règle mes factures rapidement."</p>
+        <footer class="blockquote-footer mt-2">Peter Mikobi, <cite title="Source Title">Kindele</cite></footer>
+      </blockquote>
+    </div>
+
+    <div class="col-md-6 d-flex align-items-center bg-white rounded shadow-sm p-4">
+      <img src="img/jeanny.jpg" alt="Jeanny Ngotshi" class="rounded-circle me-3" width="120" height="120" style="object-fit: cover; border: 3px solid #004d40;">
+      <blockquote class="blockquote mb-0">
+        <p style="font-size:1.1rem; color:#00695c;">"Le paiement en ligne à Makaya m’a permis d’économiser beaucoup de temps, plus besoin d’attendre des heures."</p>
+        <footer class="blockquote-footer mt-2">Jeanny Ngotshi, <cite title="Source Title">Kindele</cite></footer>
+      </blockquote>
+    </div>
+
+    <div class="col-md-6 d-flex align-items-center bg-white rounded shadow-sm p-4">
+      <img src="img/piem.jpg" alt="Samuel Mbongo" class="rounded-circle me-3" width="120" height="120" style="object-fit: cover; border: 3px solid #004d40;">
+      <blockquote class="blockquote mb-0">
+        <p style="font-size:1.1rem; color:#00695c;">"Le système en ligne est facile à utiliser et très sécurisé. Je recommande à tous les clients de Makaya."</p>
+        <footer class="blockquote-footer mt-2">Ambassadeur Moses, <cite title="Source Title">Kindele</cite></footer>
+      </blockquote>
+    </div>
+
+    <div class="col-md-6 d-flex align-items-center bg-white rounded shadow-sm p-4">
+      <img src="img/lith.jpg" alt="Esther Kalombo" class="rounded-circle me-3" width="120" height="120" style="object-fit: cover; border: 3px solid #004d40;">
+      <blockquote class="blockquote mb-0">
+        <p style="font-size:1.1rem; color:#00695c;">"Le paiement en ligne m’a permis de régler mes factures même en étant loin de l’agence de Makaya, super pratique."</p>
+        <footer class="blockquote-footer mt-2">Esther Kalombo, <cite title="Source Title">Kindele</cite></footer>
+      </blockquote>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email : regideso@exemple.com</p>
+      <p>Téléphone : +243 000 000 000</p>
+      <p>Email : moisepiema3@gmail.com</p>
+      <p>Téléphone : +243823841530</p>
+    </div>
+  </section>
+
+
+
+  
+  <p>
+    <a href="#accueil" class="text-white">Retour à la page d'accueil</a>  
+    
+  </p>
+
+  <footer class="bg-dark text-white text-center py-3">
+
+     <div class="ms-4 mb-4">
+      <h2>Les Réalisateurs</h2>
+     </div>
+
+
+    <div class="container text-center">
+
+      <div class="row justify-content text-center mb-4">
+    <div class="col-2">
+      <img src="img/piem.jpg" alt="Plus besoin de faire la queue" class="rounded-circle mb-3" width="80" height="80">
+      <p>Moïse Piema</p>
+    </div>
+    <div class="col-2">
+      <img src="img/sam.jpg" alt="Plus besoin de faire la queue" class="rounded-circle mb-3" width="80" height="80">
+      <p>Samuel Kave</p>
+    </div>
+    <div class="col-2">
+      <img src="img/jerem.jpg" alt="Plus besoin de faire la queue" class="rounded-circle mb-3" width="80" height="80">
+      <p>Jérémie Liyingu</p>
+    </div>
+    <div class="col-2">
+      <img src="img/deg.jpg" alt="Plus besoin de faire la queue" class="rounded-circle mb-3" width="80" height="80">
+      <p>Degaullier Manongi</p>
+    </div>
+    <div class="col-2">
+      <img src="img/muj.jpg" alt="Plus besoin de faire la queue" class="rounded-circle mb-3" width="80" height="80">
+      <p>Josué Muyanja</p>
+    </div>
+    </div>
+
+    <div class="row justify-content text-center">
+
+
+    <div class="col-2">
+      <img src="img/iyef.jpg" alt="Plus besoin de faire la queue" class="rounded-circle mb-3" width="80" height="80">
+      <p>Joel Ifeye</p>
+    </div>
+    <div class="col-2">
+      <img src="img/lith.jpg" alt="Plus besoin de faire la queue" class="rounded-circle mb-3" width="80" height="80">
+      <p>Lithie Kiungu</p>
+    </div>
+    <div class="col-2">
+      <img src="img/alibaba.jpg" alt="Plus besoin de faire la queue" class="rounded-circle mb-3" width="80" height="80">
+      <p>Persis-Alice Luzolo</p>
+    </div>
+    <div class="col-2">
+      <img src="img/caro.jpg" alt="Plus besoin de faire la queue" class="rounded-circle mb-3" width="80" height="80">
+      <p>Carole Belongo</p>
+    </div>
+    <div class="col-2">
+      <img src="img/amad.jpg" alt="Plus besoin de faire la queue" class="rounded-circle mb-3" width="80" height="80">
+      <p>Anthony Wilu</p>
+    
+    
+  
+  </footer>
+  
+
+</body> 
+</html>
